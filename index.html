@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagem">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com 
+                ele quando criança,
+                mas não consegue controlá-los">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="ciclope">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey é considerada uma mutante de nível Ômega, ou seja, ela está entre os mais fortes mutantes da Marvel. Desde quando nasceu é possui seus poderes de telepatia, telecinética e psiônica.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Jeam Grey">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Originalmente denominada Ninfa, ela integrou a quarta formação dos X-Men, utilizando ao máximo sua habilidade de atravessar objetos sólidos e andar no ar." >
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Lince Negra">
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="A Tempestade conta a história de um velho feiticeiro, ex-Duque de Milão exilado em uma ilha, juntamente com sua filha, que traz seus dois irmãos para a ilha por conta de uma tempestade elaborada exatamente para vingar e restaurar-se no poder.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="Criada pela terrorista Mística e pela precognitiva mutante Sina, Vampira fez parte da Irmandade dos Mutantes. Enviada a Charles Xavier para tentar aprender a controlar melhor seu dom mutante, ela passou a fazer parte dos X-Men e tornou-se uma verdadeira heroína.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Vampira">
+                </li>
+
+                <li class="personagem" id="Wolverine" data-name="Wolverine" data-description="Wolverine é dotado de poderes mutantes extraordinários. Seu principal atributo é o fator de cura acelerado, que lhe permite se recuperar rapidamente de ferimentos graves e regenerar tecidos danificados. ">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Wolverine">
+                </li>
+
+                <li class="personagem" id="noturno" data-name="Norturno" data-description="Noturno conta a história de Bryan Closer, um policial de São Francisco, nos Estados Unidos, que começa a ter sonhos estranhos, que mostram crimes brutais e até macabros. O problema é que quando acorda, ele descobre que estes assassinatos são reais.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Norturno">
+                </li>
+
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="Magneto é um mutante que pode controlar campos magnéticos. Ele pode controlar objetos metálicos e manipular campos magnéticos a fim de criar barreiras de defesa, levitar objetos pesados e até mesmo gerar pulsos eletromagnéticos.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Magneto">
+                </li>
+
+
+            </ul>
+        </section>
+        <section class="personagens-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com 
+                    ele quando criança,
+                    mas não consegue controlá-los
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
