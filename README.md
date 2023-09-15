@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="./src/imagens/logo.svg"/> 
+    <img src="./readmeLogo.svg"/> 
     <p>With great powers come great responsibilities! 🦸🦸‍♀️
 </h1>
 
