@@ -17,9 +17,8 @@
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-## 🚀 Objetivo do projeto.
+## 🚀 Project objective.
 
-- Elaborar uma Landing Page interativa;
 - Manipulação do HTML, através do JavaScript;
 - Trabalhar o Design com CSS;
 - Organização de arquivos;
